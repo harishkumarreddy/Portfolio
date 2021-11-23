@@ -1,0 +1,59 @@
+{
+  "name": "portfolio",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@contentful/rich-text-html-renderer": "^15.2.0",
+    "@contentful/rich-text-react-renderer": "^15.2.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^12.20.19",
+    "@types/react": "^17.0.16",
+    "@types/react-dom": "^17.0.9",
+    "antd": "^4.16.11",
+    "axios": "^0.21.1",
+    "contentful": "^8.5.0",
+    "contentful-management": "^7.33.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.1",
+    "redux-devtools-extension": "^2.13.9",
+    "typescript": "^4.3.5",
+    "web-vitals": "^1.1.2"
+  },
+  "devDependencies": {
+    "@contentful/rich-text-types": "^15.1.0",
+    "@types/react-router-dom": "^5.1.8",
+    "i": "^0.3.6",
+    "npm": "^7.21.1"
+  }
+}
